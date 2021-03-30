@@ -1,0 +1,86 @@
+.my-nav{
+    padding: 0 50px;
+}
+.my-link{
+    background-color: #4ca2dd;
+  
+}
+
+.my-link-color{
+    color: white !important;
+}
+.wrap{
+    padding: 60px;
+    background-color: #4ca2dd;
+    text-align: center;
+    
+}
+.white, .card-body{
+    color: white;
+}
+.title {
+    padding: 20px;
+}
+
+.card i{
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+}
+.my-card{
+    background-color: transparent;
+    border-color: white;
+}
+.my-item{
+    height: 500px;
+}
+.centered-caption{
+   width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.buttons{
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+}
+.my-btn-2{
+    background-color: #4ca2dd;
+    border-color:  #4ca2dd;
+    
+}
+.my-btn-1{
+    background-color: #d9a31e;
+    border-color:  #d9a31e;
+ 
+}
+.my-item  img{
+     height: 100%;
+     object-fit: cover;  
+}
+
+ .carousel-inner{
+     position: relative;
+ }
+
+ .bgblue{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #171212ba;
+    z-index: 9;
+ }
+ .carousel-caption{
+     z-index: 99999;
+ }
+
+ .carousel-control-next, .carousel-control-prev {
+    z-index: 9999;
+ }
+ @media  (max-width: 400px){
+     .wrap{
+         padding: 30px 10px;
+     }
+ }
